@@ -13,9 +13,9 @@
 
     <script>
         //let result = ""; // 변수가 위에 있으면 무한으로 출력됨
-
+        
         function gugudan(dan){
-            let result = ""; //문자를 초기화 할때는 - 공백문자          
+            /* let result = ""; */ //문자를 초기화 할때는 - 공백문자          
             for(var i=1; i<10; i++){
                 let current_val = dan + "x" + i + "=" + (dan * i) + "<br>";
                 result += current_val; //result = result + current_val
@@ -28,5 +28,13 @@
 
 
 <!-- 
-    
+    function gugudan(dan){
+        let result = "";
+
+        for(let i = 0; i<10; i++){
+            let current = dan + "x" + i + "=" + (dan*i) + "<br>";
+            result += currnet;
+        }
+        document.getElementById("show").innerHTML = result;
+    }
  -->
