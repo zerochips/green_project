@@ -20,10 +20,10 @@
             //부모객체.appendChild(자식객체)
             newP.appendChild(text);
             //<p>태그를 부모 <div>에 포함시킴
-            let div = document.getElementById("info");
-            div.appendChild(newP);
-            //document.getElementById("info").appendChild(newP);
-            
+            /* let div = document.getElementById("info");
+            div.appendChild(newP); */
+            //아래 한 줄에 사용하는 방법
+            document.getElementById("info").appendChild(newP);            
         }
     </script>
 </body>
