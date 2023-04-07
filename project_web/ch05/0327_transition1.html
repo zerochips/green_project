@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>transition 속성</title>
     <style>
-        .tr {
+        .tr{
             width: 100px;
             height: 100px;
             background-color: #00f;
@@ -17,8 +17,7 @@
             left: 100px;
 
             /* transition-property: width, height;
-            transition-duration: 2s, 1s;
-            */
+            transition-duration: 2s, 1s; */
 
             /* 한 번에 설정하는 방법 */
             /* ↓ 한 번에 속성 설정 - 콤마[,] 로 구분 */
@@ -26,8 +25,14 @@
 
             /* 모든 속성에 대해 시간을 똑같이 설정
             ↓ */
-            /* transition: all 0.5s; */
+            transition: all 2s ease-in-out;
 
+            /* transition: all 0.5s; */
+            /* transition: all 2s ease-in;*/
+            /* transition: all 2s ease-out;*/            
+            /* ease-in : 느리게 시작 */
+            /* ease-out : 느리게 끝남 */
+            /* ease-in-out : 느리게 시작하고 느리게 끝남 */
         }
         .tr:hover{
             width: 200px;

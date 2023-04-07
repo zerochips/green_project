@@ -18,7 +18,7 @@ header #logo h1 a .D{ font-size: 70px; }
 
 
 /* header nav 메뉴바 */
-header nav{ width: 800px; float: right; line-height: 80px; text-align: center; } /* width로 nav 수평 위치 변경 가능 / text-align: right; margin-right: 100px; 한 번 넣어봄 */
+header nav{ width: 1000px; float: right; line-height: 80px; text-align: center; } /* width로 nav 수평 위치 변경 가능 / text-align: right; margin-right: 100px; 한 번 넣어봄 */
 header nav #topMenu{ list-style: none; }
 header nav #topMenu li{ margin: 0 30px; padding: 0 20px; display: inline-block; }
 header nav #topMenu li a{ color: white; text-decoration: none; font-weight: bold; font-size: 14px; }
