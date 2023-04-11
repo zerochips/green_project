@@ -8,9 +8,11 @@ function addContents(){
     //두개가 한 묶음 이구나?? 알아서 이해하자
     let newImg = document.createElement("img");
     let src = document.createAttribute("src");
+
     //src(소스) 속성
     src.value = "./images/coffee-blue.jpg";
     newImg.setAttributeNode(src);
+
     //alt속성 - div 태그쪽에 소스하고 이미지가 다 들어간겁니다
     let alt = document.createAttribute("alt");
     alt.value = "커피 이미지";
@@ -19,5 +21,4 @@ function addContents(){
     //div 태그쪽에 소스하고 이미지가 다 들어간겁니다
     //div 태그안에 img 태그 포함
     document.getElementById("info").appendChild(newImg);
-
 }
